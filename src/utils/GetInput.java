@@ -4,8 +4,9 @@ import java.util.Scanner;
 import managers.ProductManager.InputType;
 
 public class GetInput {
+    private static Scanner scanner = new Scanner(System.in);
     public static String getInput(String message, InputType type, Integer min, Integer max) {
-        Scanner scanner = new Scanner(System.in);
+
         System.out.println(message);
         String input = "";
 

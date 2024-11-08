@@ -29,8 +29,7 @@ public class Product {
         return rating;
     }
 
-    public void setPrice(double price) {
-        this.price = price;
+    public void setStock(int stock) {
+        this.stock = stock;
     }
-
 }
